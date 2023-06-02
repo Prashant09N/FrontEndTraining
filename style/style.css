@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.bodybanner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(39, 78, 78);
+    color:white;
+    align-items: center;
+    justify-content: center;    
+}
+
+.bodybanner__heading{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bodybanner__subheading{
+    font-size: 1.5rem;
+    width: vw;
+    align-items: center;
+}
+
+.buttonbkg{
+    background-color: white;
+    color: black;
+    width: 10%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.button1{
+    background-color: white;
+    color: black;
+}
+.button1:hover{
+    background-color: green;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.heading{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    text-align-last: right;
+}
+
+.nav-links a {
+
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+
+  .nav-links a:hover {
+
+    background-color: rgb(39, 78, 78);
+  
+  }
+  
